@@ -1,15 +1,15 @@
 const imageFilenames = [
-  "image1.jpg",
-  "image2.jpg",
-  "image3.jpg",
-  "image4.jpg",
-  "image5.jpg",
-  "image6.jpg",
-  "image7.jpg",
-  "image8.jpg",
-  "image9.jpg",
-  "image10.jpg",
-  "image11.jpg",
+  "image1.webp",
+  "image2.webp",
+  "image3.webp",
+  "image4.webp",
+  "image5.webp",
+  "image6.webp",
+  "image7.webp",
+  "image8.webp",
+  "image9.webp",
+  "image10.webp",
+  "image11.webp",
 ];
 
 const gallery = document.getElementById("photo-gallery");
