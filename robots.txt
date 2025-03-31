@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /api/
+
+# Allow important content directories
+Allow: /projects/
+Allow: /blog/
+Allow: /portfolio/
+Allow: /assets/
+Allow: /images/
+
+# Allow search engines to access sitemaps
+Allow: /sitemap.xml
+Allow: /sitemap-*.xml
+
+# Crawl delay to prevent server overload
+Crawl-delay: 2
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Additional sitemaps for specific content
+Sitemap: https://yourdomain.com/sitemap-blog.xml
+Sitemap: https://yourdomain.com/sitemap-portfolio.xml
