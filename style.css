@@ -14,10 +14,15 @@
   margin: 0;
 }
 
+/* Global selection styling */
 ::selection {
-    background-color: transparent;
-    text-underline-offset: 0.25rem;
-    text-decoration: underline orangered;
+  background-color: orangered  ;
+  color: white;
+}
+/* Firefox needs the -moz- prefix */
+::-moz-selection {
+  background-color: orangered;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
