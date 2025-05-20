@@ -16,12 +16,12 @@
 
 /* Global selection styling */
 ::selection {
-  background-color: orangered  ;
+  background-color: green  ;
   color: white;
 }
 /* Firefox needs the -moz- prefix */
 ::-moz-selection {
-  background-color: orangered;
+  background-color: green;
   color: white;
 }
 
@@ -105,7 +105,7 @@ h6 {
     --margin-sm: 10px;
     --border-radius: 10px;
     --font-family: "Roboto", sans-serif;
-    --font-family-heading: "Nunito", sans-serif;
+    --font-family-heading: "Fraunces", serif;
 }
 
 /* Base styles */
@@ -149,7 +149,7 @@ body {
 .nav-links a:hover,
 .social-links a:hover {
   color: orangered;
-  transition: color 0.3s ease-in-out;
+  transition: green 0.3s ease-in-out;
 }
 
 .social-links {
@@ -205,12 +205,12 @@ body {
 }
 
 .project-item:hover .star {
-  color: orangered;
+  color: green;
   transition: color 0.3s ease-in-out;
 }
 
 .bottom-projects#contact .project-item:hover .project-header h3 {
-  color: orangered;
+  color: green;
   transition: color 0.3s ease-in-out;
 }
 
@@ -305,7 +305,7 @@ footer p {
     cursor: pointer;
   }
   .burger-menu .star:hover {
-    color: orangered;
+    color: green;
   }
 
   .burger-menu.active .star {
