@@ -2,8 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /assets/private/
 
-# Crawl-delay
-Crawl-delay: 10
-
-# Sitemaps
 Sitemap: https://lucakursawe.xyz/sitemap.xml
