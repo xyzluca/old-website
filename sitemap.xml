@@ -22,23 +22,16 @@
   </url>
 
   <url>
-    <loc>https://lucakursawe.xyz/resume.html</loc>
+    <loc>https://lucakursawe.xyz/experience.html</loc>
     <lastmod>2025-03-31T23:43:30+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://lucakursawe.xyz/photography.html</loc>
+    <loc>https://lucakursawe.xyz/blog.html</loc>
     <lastmod>2025-03-31T23:43:30+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://lucakursawe.xyz/contact.html</loc>
-    <lastmod>2025-03-31T23:43:30+00:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 

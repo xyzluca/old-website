@@ -369,3 +369,114 @@ footer {
     transform: translateY(0);
   }
 }
+
+/* Experience page styles */
+.experience-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.experience-item {
+  padding: var(--padding);
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--margin-sm);
+}
+
+.experience-header h3 {
+  font-size: 1.25rem;
+  color: #333;
+  font-family: var(--font-family-heading);
+  font-weight: 600;
+}
+
+.date {
+  font-size: 0.875rem;
+  color: #999;
+  font-family: var(--font-family);
+}
+
+.company {
+  font-size: 1rem;
+  color: orangered;
+  font-family: var(--font-family);
+  margin-bottom: var(--margin-sm);
+}
+
+.experience-description {
+  font-size: 0.875rem;
+  color: #666;
+  font-family: var(--font-family);
+}
+
+/* Blog page styles */
+.blog-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.blog-item {
+  padding: var(--padding);
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--margin-sm);
+}
+
+.blog-header h3 {
+  font-size: 1.25rem;
+  color: #333;
+  font-family: var(--font-family-heading);
+  font-weight: 600;
+}
+
+.blog-description {
+  font-size: 0.875rem;
+  color: #666;
+  font-family: var(--font-family);
+  margin-bottom: var(--margin);
+}
+
+.read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: orangered;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: var(--font-family);
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Project page additions */
+.work-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: var(--margin);
+}
+
+.tech-tag {
+  font-size: 0.75rem;
+  color: #666;
+  background-color: #eee;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-family: var(--font-family);
+}
