@@ -7,20 +7,30 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio about my projects and career" />
-    <meta
-      name="keywords"
-      content="lucakursawe, Luca Kursawe, Luca, Kursawe, Rheinische Hochschule Köln, Computer Science, Informatik B.Sc., RH Köln, RFH"
-    />
-    <meta name="author" content="Luca Kursawe" />
     <title>Luca Kursawe | Creative Technologist & CS Student</title>
+    <meta name="description" content="Creative Technologist and Computer Science student at RH Köln, specializing in web development, data visualization, and digital photography. Available for internships and creative projects." />
+    <meta name="keywords" content="lucakursawe, Luca Kursawe, Creative Technologist, Computer Science, Web Development, Data Visualization, Digital Photography, RH Köln, Portfolio" />
+    <meta name="author" content="Luca Kursawe" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lucakursawe.xyz/" />
+    <meta property="og:title" content="Luca Kursawe | Creative Technologist & CS Student" />
+    <meta property="og:description" content="Creative Technologist and Computer Science student at RH Köln, specializing in web development, data visualization, and digital photography." />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://lucakursawe.xyz/" />
+    <meta name="twitter:title" content="Luca Kursawe | Creative Technologist & CS Student" />
+    <meta name="twitter:description" content="Creative Technologist and Computer Science student at RH Köln, specializing in web development, data visualization, and digital photography." />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://lucakursawe.xyz/" />
+    
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
   </head>
   <body>
     <nav class="navbar">
@@ -28,18 +38,18 @@
         <div class="star">✱</div>
       </div>
       <div class="nav-links" id="nav-links">
-        <a href="/index.html">✱</a>
+        <a href="/index.html" aria-label="Home">✱</a>
         <a href="/projects.html">Projects</a>
         <a href="/resume.html">Resume</a>
         <a href="/photography.html">Photography</a>
         <a href="/contact.html">Contact</a>
       </div>
       <div class="social-links" id="social-links">
-        <a href="https://github.com/xyzluca" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/lucakursawe" target="_blank">LinkedIn</a>
-        <a href="https://www.xing.com/profile/luca_kursawe" target="_blank">Xing</a>
-        <a href="https://unsplash.com/@lucakursawe" target="_blank">Unsplash</a>
-        <a href="https://www.instagram.com/lucakursawe" target="_blank">Instagram</a>
+        <a href="https://github.com/xyzluca" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/lucakursawe" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.xing.com/profile/luca_kursawe" target="_blank" rel="noopener noreferrer">Xing</a>
+        <a href="https://unsplash.com/@lucakursawe" target="_blank" rel="noopener noreferrer">Unsplash</a>
+        <a href="https://www.instagram.com/lucakursawe" target="_blank" rel="noopener noreferrer">Instagram</a>
       </div>
     </nav>
 
@@ -47,7 +57,7 @@
       <section class="intro">
         <div class="intro-content">
           <h1>
-            Hey, I'm <span class="highlight">Luca</span> <span class="emoji">👋</span>
+            Hey, I'm <span class="highlight">Luca</span> <span class="emoji" role="img" aria-label="waving hand">👋</span>
           </h1>
           <p class="intro-text">
             A <span class="highlight">Creative Technologist</span> and Computer Science student at RH Köln, 
@@ -81,21 +91,21 @@
           <a href="/projects.html" class="work-item">
             <div class="work-header">
               <h3>Soundline</h3>
-              <span class="star">✱</span>
+              <span class="star" aria-hidden="true">✱</span>
             </div>
             <p class="work-description">A Spotify-powered NYC subway sign generator</p>
           </a>
           <a href="/photography.html" class="work-item">
             <div class="work-header">
               <h3>Photography</h3>
-              <span class="star">✱</span>
+              <span class="star" aria-hidden="true">✱</span>
             </div>
             <p class="work-description">Visual storytelling through digital photography</p>
           </a>
           <a href="/projects.html" class="work-item">
             <div class="work-header">
               <h3>Portfolio</h3>
-              <span class="star">✱</span>
+              <span class="star" aria-hidden="true">✱</span>
             </div>
             <p class="work-description">This website, built with modern web technologies</p>
           </a>
@@ -127,7 +137,20 @@
           "https://github.com/xyzluca",
           "https://lucakursawe.xyz"
         ],
-        "jobTitle": "Creative Technologist & CS Student"
+        "jobTitle": "Creative Technologist & CS Student",
+        "description": "Creative Technologist and Computer Science student at RH Köln, specializing in web development, data visualization, and digital photography.",
+        "knowsAbout": [
+          "Web Development",
+          "Data Visualization",
+          "Digital Photography",
+          "Computer Science",
+          "React",
+          "JavaScript"
+        ],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "RH Köln"
+        }
       }
     </script>
   </body>
